@@ -1,0 +1,45 @@
+.carrito {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  display: none;
+}
+
+.carrito.open {
+  display: block;
+}
+
+.lista-productos{
+  position: relative;
+  display: block;
+
+}
+
+li{
+list-style-type: none;  
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  background-color: #dc7d68;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #f1d2c4;
+}
